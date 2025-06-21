@@ -1,0 +1,21 @@
+
+GET http://localhost:8081/api/comments/3
+
+
+# PATCH  http://localhost:8081/api/comments/3  HTTP/1.1
+# Content-Type: application/json
+
+# {
+#   "text": "This is an updated comment"
+# }
+
+# DELETE http://localhost:8081/api/comments/3
+
+
+
+# POST http://localhost:8081/api/comments HTTP/1.1
+# Content-Type: application/json
+
+# {
+#   "text": "This is a new comment"
+# }
